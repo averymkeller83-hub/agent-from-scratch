@@ -38,13 +38,16 @@ the code never knows which model is behind it.
 
 - **v1 — the loop** ✓ — chat with memory (the conversation list)
 - **v1.1 — streaming** ✓ — watch the model think live
+- **v1.2 — remember the conversation** — save the chat to a file at
+  quit, load it at start; the agent knows me tomorrow
 - **v2 — first tool** — `read_file`: the model asks, my code decides
 - **v2.5 — the scoreboard** — ten real tasks from my life as a test
   suite; every harness upgrade gets measured, so I can watch the
   capability line move instead of guessing
 - **v3 — the router** — too hard for the small model? It says so and
   escalates to a stronger brain
-- **v4 — memory** — the agent starts learning between sessions
+- **v4 — learning memory** — beyond remembering chats: notes-to-self
+  and lessons, so the agent gets better between sessions
 - **v5 — reasoning** — think first, act second, check the work
 - **someday — my own brain** — a tiny GPT trained from zero, plugged
   into this same harness
