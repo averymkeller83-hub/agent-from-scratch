@@ -1,0 +1,20 @@
+# Secrets — the reason this file exists BEFORE any code does.
+# API keys and tokens live in .env (or the OS keychain), never in source.
+.env
+.env.*
+*.key
+*.pem
+secrets/
+
+# Python build/runtime junk
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editor + OS noise
+.DS_Store
+.vscode/
+
+# Agent runtime state (memory files come later — v4; keep local until then)
+state/
